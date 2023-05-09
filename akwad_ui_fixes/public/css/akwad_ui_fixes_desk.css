@@ -193,3 +193,28 @@ li[style*="direction: rtl;"].ql-indent-5 {
  background: #c5e3ff;
  padding: 15px;
 }
+
+html[data-theme='dark'] .ellipsis {
+	color: var(--text-on-light-gray);
+}
+
+html[data-theme='dark'] .links-widget-box {
+	background: var(--gray-600);
+}
+
+html[data-theme='dark'] .shortcut-widget-box {
+	background: var(--gray-400);
+}
+
+html[data-theme='dark'] .icon {
+	stroke: var(--text-on-dark-gray) !important;
+}
+
+html[data-theme='dark'] .desk-sidebar .standard-sidebar-item:hover, .search-dialog .search-results .search-sidebar .standard-sidebar-item:hover, .standard-sidebar .standard-sidebar-item:hover {
+    background-color: var(--gray-400);
+    text-decoration: none;
+}
+
+html[data-theme='dark'] .navbar {
+	background-color: var(--fg-color);
+}
